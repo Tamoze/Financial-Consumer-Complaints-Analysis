@@ -99,7 +99,50 @@ Data preparation steps included:
 ## Data Analysis and Insights
 
 ### 🔍 Seasonal Trends
-- Complaint volumes show consistent **spikes in Q1 and Q3**, hinting at possible seasonal service disruptions or billing cycles.
+![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Seasonal%20complaints.png)
+- Q3 recorded the highest number of complaints (16,952), closely followed by Q2 with 16,641.
+- Q1 had 14,662 complaints, while Q4 had the lowest with 14,261.
+  
+This shows a clear spike in consumer complaints during mid-year (Q2 and Q3), likely driven by seasonal or operational factors.
+
+### 📅 Trends of Consumer Complaints by Month
+![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Complaints%20by%20month.png)
+
+This shows that:
+- Complaint volume rises steadily from February (3,130) to July (4,458), peaking in mid-summer.
+- After July, complaints begin to decline, with the lowest reported in December (3,190).
+- Key monthly figures:
+
+Highest months: July (4,458), May (4,000), June (3,852)
+
+Lowest months: February (3,130), November (3,212), December (3,190)
+
+This trend suggests increased customer friction or service interaction during warmer months or fiscal midpoints.
+
+### 📆 Trends of Consumer Complaints by Year (2017–2023)
+![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Complaints%20by%20year.png)
+
+This shows that complaint volumes increased consistently from 2017 (2,879) to a peak in 2022 (8,746).
+
+A decline occurred in 2023 (6,263), possibly due to improved complaint resolution strategies or reduced service disruptions.
+
+Year-over-year summary:
+
+- 2017: 2,879
+- 2018: 4,698
+- 2019: 4,465
+- 2020: 5,297
+- 2021: 7,116
+- 2022: 8,746
+- 2023: 6,263
+
+*🔍 Key Insight Summary*
+
+- Complaints peak in Q3 and mid-year months, especially July and May, signaling a seasonal trend.
+
+- December and February see the fewest complaints, suggesting calmer service periods.
+
+- Over the years, complaint volumes rose sharply before tapering off in 2023, indicating progress in handling or preventing issues.
 
 ### 📊 Top Products with Complaints
 - **Credit reporting** and **checking/savings accounts** had the highest number of complaints.
@@ -129,13 +172,14 @@ This Power BI dashboard offers a deep dive into consumer complaints targeting Ba
 ---
 
 
-## 📸 Dashboard 
+## 📸 Dashboard Preview
 
+![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Consumer%20Complaints%20Analysis%20Page3.png)![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Consumer%20Complaint%20Analysis%20Page1.png)![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Consumer%20Compaint%20Analysis%20Page%202.png)
 
-
-
+> *Sample Power BI dashboard showing complaint trends, top product issues, and resolution breakdown.*
 
 ---
+
 
 ## 🏷️ Project Badges
 
