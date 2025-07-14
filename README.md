@@ -111,11 +111,10 @@ This shows a clear spike in consumer complaints during mid-year (Q2 and Q3), lik
 This shows that:
 - Complaint volume rises steadily from February (3,130) to July (4,458), peaking in mid-summer.
 - After July, complaints begin to decline, with the lowest reported in December (3,190).
-- Key monthly figures:
 
-Highest months: July (4,458), May (4,000), June (3,852)
-
-Lowest months: February (3,130), November (3,212), December (3,190)
+Key monthly figures:
+- Highest months: July (4,458), May (4,000), June (3,852)
+- Lowest months: February (3,130), November (3,212), December (3,190)
 
 This trend suggests increased customer friction or service interaction during warmer months or fiscal midpoints.
 
@@ -137,16 +136,71 @@ Year-over-year summary:
 - 2023: 6,263
 
 *🔍 Key Insight Summary*
-
 - Complaints peak in Q3 and mid-year months, especially July and May, signaling a seasonal trend.
-
 - December and February see the fewest complaints, suggesting calmer service periods.
-
 - Over the years, complaint volumes rose sharply before tapering off in 2023, indicating progress in handling or preventing issues.
 
-### 📊 Top Products with Complaints
-- **Credit reporting** and **checking/savings accounts** had the highest number of complaints.
-- Common issues include **incorrect information on reports** and **unauthorized transactions**.
+### 📌 Insights on Issues by Product, Sub-Product, and Issue Type
+
+**🏦 Number of Issues Identified Per Product**
+
+![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Number%20of%20issues%20identified%20per%20product.png)
+
+Complaint volume by product category shows clear trends in which services cause the most friction:
+- Checking or savings accounts dominate with 24,814 issues, showing that routine banking services are the most problematic area for consumers.
+- Credit cards or prepaid cards follow with 16,197 issues.
+
+Other notable products:
+- Credit reporting/credit repair – 7,710
+- Mortgage – 6,661
+- Money transfer, virtual currency – 3,453
+- Debt collection - 2,736
+- Vehicle loan or lease - 633
+- Payday loan, title loan or personal loan - 333
+- Student loan - 39
+
+This distribution shows that while traditional banking leads in volume, financial products involving third parties (like credit reports and transfers) also account for a large portion of issues.
+
+**10 Most Frequent Issues Across Products**
+
+![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/10%20Most%20Frequent%20Issues%20Across%20Products.png)
+
+The analysis of complaint issues reveals a strong concentration in a few problem areas:
+- Managing an account leads by a wide margin with 15,109 complaints, indicating customer difficulty in day-to-day account operations.
+
+  Other high-frequency issues include:
+- Incorrect information on report – 4,931
+- Problems with a purchase shown on statement – 4,415
+- Closing an account – 2,953
+- Trouble during payment process – 2,827
+- Opening an account - 2,725
+- Problem with a lender or other company charging your account - 2,493
+- Fraud or scam - 1697
+
+These reflect concerns around basic account operations, transactional disputes, and information accuracy — all critical aspects of financial trust and user experience.
+
+**🧾Top 10 Issues Identified Per Sub-Product**
+
+![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Top%2010%20issues%20idenntied%20per%20sub%20product.png)
+
+The sub-product breakdown gives deeper granularity into where issues cluster:
+- Checking accounts again top the list with 20,768 issues, reaffirming the need for better experience and support in this basic financial service.
+- General-purpose credit cards – 13,404
+- Credit reporting – 7,340
+
+Other sub-products of concern include:
+- Conventional home mortgage – 3,767
+- Other banking products or services – 2,568
+- Government benefit cards – 2,429
+- Domestic (US) money transfer -  1,773
+- Credit card debt - 1697
+  
+These results indicate that daily-use and high-volume products (e.g., checking accounts, credit cards, and credit reports) are most susceptible to dissatisfaction and confusion.
+
+*🔍 Summary of Product & Issue Insights*
+- Consumers struggle most with basic financial operations, particularly managing and closing accounts.
+- Checking accounts and general-purpose credit cards are the most complaint-prone sub-products.
+- There’s a strong need for clearer communication, proactive dispute resolution, and process simplification for frequently used products.
 
 ### 🛠️ Resolution Types
 - The majority of complaints are resolved with an **"Explanation"** or **"Closed with monetary relief"**.
@@ -159,10 +213,38 @@ Year-over-year summary:
 ---
 
 ## Recommendation
-- **Enhance Response Workflow**: Focus on reducing delays for credit-related complaints.
-- **Targeted Training**: Equip support agents with better tools to handle disputed issues.
-- **Product Review**: Investigate why credit reporting triggers high complaint volumes.
-- **Proactive Monitoring**: Use predictive modeling to anticipate seasonal spikes and prepare resources.
+ **Enhance Mid-Year Support Capacity (Q2–Q3)**
+  
+Since Q2 and Q3 (April to September) see the highest complaint volumes, financial institutions like Bank of America should:
+- Scale up customer service teams during this period.
+- Implement proactive outreach to address predictable seasonal issues.
+- Ensure system reliability and uptime, especially for online and mobile banking.
+
+  **Monitor and Improve Product-Specific Complaint Channels**
+- Focus resources on high-complaint products and issues, ensuring:
+- Product teams review recurring complaint types.
+- Training and scripts for agents are updated to reflect common customer pain points.
+
+  **Boost Response Timeliness**
+- With timeliness being a critical issue:
+- Implement automated routing and triage systems to shorten response time.
+- Regularly audit cases with delayed responses to uncover bottlenecks or procedural gaps.
+
+  **Leverage Predictive Analytics**
+- Use historical complaint trends to forecast complaint volumes by season, month, and product.
+- Deploy AI-driven early warning systems to flag sudden spikes or emerging issues.
+
+  **Improve Self-Service Resources**
+- Develop and update FAQs, tutorials, and support chatbots to handle predictable seasonal complaints.
+- Encourage self-resolution during peak months to reduce contact center load.
+
+  **Customer Education Campaigns**
+- Launch targeted communication campaigns in March and April to educate consumers about product features, fees, and dispute processes—reducing misunderstandings that lead to complaints.
+
+  **Evaluate Operational Changes Made in 2023**
+- The drop in complaints in 2023 suggests recent improvements were effective.
+- Conduct a retrospective analysis to identify which actions led to better outcomes.
+- Scale or replicate these across other business units or regions.
 
 ---
 
