@@ -202,9 +202,46 @@ These results indicate that daily-use and high-volume products (e.g., checking a
 - Checking accounts and general-purpose credit cards are the most complaint-prone sub-products.
 - There’s a strong need for clearer communication, proactive dispute resolution, and process simplification for frequently used products.
 
+### 🌎 Geographic Insights: Top 10 States by Complaint Volume
+
+**📍 State-Level Complaint Distribution**
+
+![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/10%20Top%20State%20with%20Highest%20Complaints.png)
+- California (CA) ranks #1 by a large margin with 13,709 complaints—over double that of the next state. This reflects its large population and high concentration of financial product users.
+- Florida (FL) follows with 6,458 complaints, also showing high engagement or dissatisfaction levels with financial services.
+
+Other top states include:
+- Texas (TX): 4,656
+- New York (NY): 4,442
+- Georgia (GA): 2,921
+- New Jersey (NJ): 2,654
+- Illinois (IL): 2,270
+- Massachusetts (MA): 2,141
+- Maryland (MD): 1,959
+- Virginia (VA): 1,731
+
+*🧠 What This Means:*
+- These states likely have large urban populations, diverse financial product users, and greater awareness of consumer protection rights—leading to higher reporting.
+- It may also reflect regional differences in service quality, financial regulation, or banking infrastructure.
+- California's dominance highlights the need for localized customer support strategies in high-volume states.
+
 ### 🛠️ Resolution Types
-- The majority of complaints are resolved with an **"Explanation"** or **"Closed with monetary relief"**.
-- A significant number were closed without relief, leading to a higher dispute rate.
+
+**🧾 Response Distribution Overview**
+
+![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Responses%20Approaches%20for%20submitted%20complaints.png)
+
+There are 5 different types of response approaches adopted from the chart:
+- Closed with explanation is by far the most common response type, accounting for 41,044 complaints.
+- Closed with monetary relief follows, representing 14,697 responses — showing that in many cases, consumers were compensated.
+- Closed with non-monetary relief was issued in 5,273 cases, indicating that adjustments or corrections were made without financial reimbursement.
+- In progress responses stand at 1,494, showing a small number of complaints still under review.
+- Only 8 complaints were marked as simply “Closed”, indicating that almost all cases were followed up with at least a basic resolution status.
+
+*💡 What This Means:*
+- The high number of “Closed with explanation” responses suggests that many complaints stem from misunderstandings or miscommunication — an opportunity for better consumer education and clearer policies.
+- Monetary and non-monetary relief combined (≈20,000 cases) highlights the importance of resolution integrity and fairness in customer service.
+- The very low number of pending or unresolved complaints (<2.5%) reflects well on response efficiency but should still be monitored to ensure timely closure.
 
 ### ⏱️ Timeliness of Response
 - While most responses were timely, **untimely responses** were often linked to disputes or complex product categories.
