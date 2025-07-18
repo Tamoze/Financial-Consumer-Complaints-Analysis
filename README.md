@@ -1,13 +1,13 @@
-### Financial-Consumer-Complaints-Analysis
+## Financial-Consumer-Complaints-Analysis
 
-### Introduction
+## Introduction
 
 The Financial Consumer Complaints project explores over 62,000 consumer complaints submitted to the Consumer Financial Protection Bureau (CFPB) concerning Bank of America from 2017 to 2023. Using Power BI, the project delivers interactive and insightful visualizations that help uncover trends in complaint types, products, resolution methods, and company response times.
 
 This project is particularly relevant for stakeholders interested in customer service analytics, financial compliance, and operational performance in the banking sector.
 
-### Table of Contents
-- [Project Overview](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/edit/main/README.md#project-overview)
+## Table of Contents
+- [Project Overview]
 - [Project Scope] 
 - [Business Objectives]  
 - [Document Purpose] 
@@ -21,12 +21,12 @@ This project is particularly relevant for stakeholders interested in customer se
 
 ---
 
-### Project Overview
+## Project Overview
 This Power BI dashboard project explores consumer complaints submitted to the Consumer Financial Protection Bureau (CFPB) regarding **Bank of America** between **2017 and 2023**. The analysis focuses on complaint trends across financial products and services, examining how issues are reported and resolved, and evaluating company response patterns.
 
 ---
 
-### Project Scope
+## Project Scope
 The scope of this project includes:
 - Analyzing complaint trends over a 7-year period (2017–2023).
 - Identifying product categories and issues with the highest complaint volumes.
@@ -35,7 +35,7 @@ The scope of this project includes:
 
 ---
 
-# Business Objectives
+## Business Objectives
 - Discover which financial products and issues trigger the most consumer complaints.
 - Evaluate how effectively Bank of America addresses complaints.
 - Understand trends in response time, dispute frequency, and submission channels.
@@ -43,7 +43,7 @@ The scope of this project includes:
 
 ---
 
-# Document Purpose
+## Document Purpose
 This README serves as documentation for the Power BI dashboard and provides:
 - Context on the dataset used
 - Description of the analytical workflow
@@ -52,7 +52,7 @@ This README serves as documentation for the Power BI dashboard and provides:
 
 ---
 
-###Use Case
+##Use Case
 This dashboard can support:
 - **Banking Operations Teams** – to pinpoint service issues and improve response workflows.
 - **Regulatory Affairs Departments** – to identify compliance risks and response delays.
@@ -61,7 +61,7 @@ This dashboard can support:
 
 ---
 
-### Data Source
+## Data Source
 - **Provider**: [Maven Analytics](https://www.mavenanalytics.io/)
 - **Dataset**: Consumer complaints filed with the CFPB
 - **Entity Covered**: Bank of America
@@ -69,7 +69,7 @@ This dashboard can support:
 
 ---
 
-### Dataset Overview
+## Dataset Overview
 - **Total Records**: 62,516
 - **Number of Fields**: 12
 
@@ -87,7 +87,7 @@ Each record represents an individual complaint submitted by a consumer.
 
 ---
 
-### Data Cleaning and Processing
+## Data Cleaning and Processing
 Data preparation steps included:
 - Removing null values and duplicates
 - Standardizing date formats and calculating submission-response time
@@ -96,7 +96,7 @@ Data preparation steps included:
 
 ---
 
-### Data Analysis and Insights
+## Data Analysis and Insights
 
 The key metrics for this analysis include:
 - Total Complaints Submitted: 62,516
@@ -348,7 +348,7 @@ The chart shows how customers are submitting complaints across different platfor
 
 ---
 
-### ✅ General Recommendations
+## ✅ General Recommendations
 
 **1. Proactively Manage High-Risk Complaint Categories**
 - Prioritize resolution for frequently reported issues such as managing an account, incorrect credit report information, and fraud or scams.
