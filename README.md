@@ -118,7 +118,7 @@ This analysis provides insights into various dimensions of consumer complaints, 
 - Prompt Response Rates and Response Approaches
 - Products with Responses in Progress
 - Top 10 Issues with Response in Progress
-- Top 10 Issues with Delayed Responses
+- Top 10 Issues with Delayed and No Public Responses 
 - Complaint Channel Distribution
 
 These insights aim to guide data-driven decision-making for improving customer experience and response effectiveness in the financial services sector.
@@ -279,8 +279,8 @@ There are 5 different types of response approaches adopted from the chart:
 
   The chart shows that:
  - 93.77% of complaints received a prompt response, which shows a strong level of responsiveness by the organization.
-- 3.84% were not responded to promptly, which may signal potential gaps in handling specific complaint types or workflow inefficiencies.
-- A very small portion (indicated in yellow) is missing data, suggesting some issues in data recording or reporting consistency.
+- 3.84% were not responded to promptly and closed with no response to the public, which may signal potential gaps in handling specific complaint types or workflow inefficiencies.
+- A very small portion (indicated in yellow) is missing data, suggesting some issues in data recording or reporting consistency. Most of these issues fall under the category of Response in progress.
 
 *💡 Insight:*
 - Overall, the organization demonstrates excellent responsiveness. However, attention should be given to the few cases not promptly addressed, especially to understand any systemic causes or patterns.
