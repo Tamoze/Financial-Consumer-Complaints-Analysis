@@ -98,6 +98,7 @@ Each record represents an individual complaint submitted by a consumer.
    - Removed the `Date complaint submitted` column since it duplicates `Date complaint received`.
 
 2. **Loading and Modeling in Power BI**:
+   
    After transformation, the dataset was loaded into Power BI, and new columns and measures were created using DAX for deeper analysis.
 
 ---
