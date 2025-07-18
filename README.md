@@ -14,14 +14,15 @@ This project is particularly relevant for stakeholders interested in customer se
 - [Use Case](#use-case) 
 - [Data Source](#data-source)  
 - [Dataset Overview](#dataset-overview) 
-- [Data Cleaning and Processing](#data-cleaning-and-processing)  
-- [Data Analysis and Insights](#data-analysis-and-insights) 
+- [Data Cleaning and Processing](#-data-cleaning-and-processing)  
+- [Data Analysis and Insights](#-data-analysis-and-insights)
 - [Recommendation](#-general-recommendations)
-- [Conclusion](#conclusion)
+- [Conclusion](#-conclusion)
+- [Dashboard Preview](#-dashboard-preview)
 
 ---
 
-### Project Overview
+## Project Overview
 This Power BI dashboard project explores consumer complaints submitted to the Consumer Financial Protection Bureau (CFPB) regarding **Bank of America** between **2017 and 2023**. The analysis focuses on complaint trends across financial products and services, examining how issues are reported and resolved, and evaluating company response patterns.
 
 ---
@@ -87,16 +88,105 @@ Each record represents an individual complaint submitted by a consumer.
 
 ---
 
-## Data Cleaning and Processing
-Data preparation steps included:
-- Removing null values and duplicates
-- Standardizing date formats and calculating submission-response time
-- Normalizing product and issue categories for consistency
-- Filtering to retain only complaints related to Bank of America (2017–2023)
+## 🧹 Data Cleaning and Processing
+
+### 🔄 Data Preparation Steps
+
+1. **Transformation of the dataset in Power Query**:
+   - Standardized the date format.
+   - Checked for consistency and replaced blank records in the `Timely response?` column with `"missing"`.
+   - Removed the `Date complaint submitted` column since it duplicates `Date complaint received`.
+
+2. **Loading and Modeling in Power BI**:
+   After transformation, the dataset was loaded into Power BI, and new columns and measures were created using DAX for deeper analysis.
 
 ---
 
-## Data Analysis and Insights
+### 🧮 Columns Created (from `Date received` using DAX):
+
+- `Month_Name`  
+  ```DAX
+  Month_Name = FORMAT(Consumer_Complaints_Data[Date received].[Date], "MMMM")
+  ```
+
+- `Month_No`  
+  ```DAX
+  Month_No = MONTH(Consumer_Complaints_Data[Date received].[Date])
+  ```
+
+- `Quarter`  
+  ```DAX
+  Quarter = "Q" & FORMAT(Consumer_Complaints_Data[Date received].[Date], "Q")
+  ```
+
+- `Year`  
+  ```DAX
+  Year = YEAR(Consumer_Complaints_Data[Date received].[Date])
+  ```
+
+---
+
+### 📐 Measures Created:
+
+- **Total Complaints Submitted**  
+  ```DAX
+  Total Complaints Submitted = DISTINCTCOUNT(Consumer_Complaints_Data[Complaint ID])
+  ```
+
+- **Total Complaint Submission Channels**  
+  ```DAX
+  Channels of Complaint Submission = DISTINCTCOUNT(Consumer_Complaints_Data[Submitted via])
+  ```
+
+- **Number of Products**  
+  ```DAX
+  Number of Products = DISTINCTCOUNT(Consumer_Complaints_Data[Product])
+  ```
+
+- **Number of Sub-Products**  
+  ```DAX
+  Number of Sub-Products = DISTINCTCOUNT(Consumer_Complaints_Data[Sub-product])
+  ```
+
+- **Number of Issues Identified**  
+  ```DAX
+  Number of Issues Identified = DISTINCTCOUNT(Consumer_Complaints_Data[Issue])
+  ```
+
+- **Number of Sub-Issues Identified**  
+  ```DAX
+  Number of Sub-Issues = DISTINCTCOUNT(Consumer_Complaints_Data[Sub-issue])
+  ```
+
+- **Number of States Reporting Complaints**  
+  ```DAX
+  Number of States Reporting Complaints = DISTINCTCOUNT(Consumer_Complaints_Data[State])
+  ```
+
+- **Number of Response Strategies/Approaches**  
+  ```DAX
+  Number of Response Strategies = DISTINCTCOUNT(Consumer_Complaints_Data[Company response to consumer])
+  ```
+
+- **Total Complaints with In-progress Response**  
+  ```DAX
+  Total Inprogress Response = CALCULATE(
+      COUNT(Consumer_Complaints_Data[Company response to consumer]),
+      Consumer_Complaints_Data[Company response to consumer] = "In progress"
+  )
+  ```
+
+- **Total Complaints with Delayed Response**  
+  ```DAX
+  Total Complaints with Delayed Response = CALCULATE(
+      COUNT(Consumer_Complaints_Data[Timely response?]),
+      Consumer_Complaints_Data[Timely response?] = "No"
+  )
+  ```
+
+---
+
+## 📊 Data Analysis and Insights
 
 The key metrics for this analysis include:
 - Total Complaints Submitted: 62,516
@@ -123,7 +213,7 @@ This analysis provides insights into various dimensions of consumer complaints, 
 
 These insights aim to guide data-driven decision-making for improving customer experience and response effectiveness in the financial services sector.
 
-# 📊 Consumer Complaint Trends
+### 📊 Consumer Complaint Trends
   **🔍 Seasonal Trends**
 ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Seasonal%20complaints.png)
 - Q3 recorded the highest number of complaints (16,952), closely followed by Q2 with 16,641.
@@ -168,7 +258,7 @@ Year-over-year summary:
 - December and February see the fewest complaints, suggesting calmer service periods.
 - Over the years, complaint volumes rose sharply before tapering off in 2023, indicating progress in handling or preventing issues.
 
-  # 📌 Insights on Issues by Product, Sub-Product, and Issue Type
+  ### 📌 Insights on Issues by Product, Sub-Product, and Issue Type
 
 **🏦 Number of Issues Identified Per Product**
 
@@ -230,7 +320,7 @@ These results indicate that daily-use and high-volume products (e.g., checking a
 - Checking accounts and general-purpose credit cards are the most complaint-prone sub-products.
 - There’s a strong need for clearer communication, proactive dispute resolution, and process simplification for frequently used products.
 
-  # 🌎 Geographic Insights: Top 10 States by Complaint Volume
+  ### 🌎 Geographic Insights: Top 10 States by Complaint Volume
 
 **📍 State-Level Complaint Distribution**
 
@@ -253,7 +343,7 @@ Other top states include:
 - It may also reflect regional differences in service quality, financial regulation, or banking infrastructure.
 - California's dominance highlights the need for localized customer support strategies in high-volume states.
 
-  # 🛠️ Resolution Types
+  ### 🛠️ Resolution Types
 
 **🧾 Response Distribution Overview**
 
@@ -271,7 +361,7 @@ There are 5 different types of response approaches adopted from the chart:
 - Monetary and non-monetary relief combined (≈20,000 cases) highlights the importance of resolution integrity and fairness in customer service.
 - The very low number of pending or unresolved complaints (<2.5%) reflects well on response efficiency but should still be monitored to ensure timely closure.
 
-  # ⏱️ Timeliness of Response
+  ### ⏱️ Timeliness of Response
   
   **📊 Prompt Response Rate**
 
@@ -329,7 +419,7 @@ From the bar chart, the most delayed issues are:
 
 The top delayed issues mirror the “in progress” ones, with "Managing an account" again leading. Delay-prone complaints tend to involve third-party interactions, data disputes, or fraud investigations, which are more complex and time-consuming.
 
-  # Complaint Channel Distribution
+  ### Complaint Channel Distribution
 
 ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Complaint%20channel%20distribution.png)
 
@@ -429,7 +519,7 @@ The noticeable drop in complaints in 2023 indicates that implemented changes wer
 
 ---
 
-## Conclusion
+## 🧾 Conclusion
 This Power BI dashboard offers a deep dive into consumer complaints targeting Bank of America’s financial products from 2017 to 2023. It reveals critical service gaps and highlights improvement opportunities in timeliness, dispute resolution, and product support. By leveraging these insights, stakeholders can make informed, customer-focused decisions.
 
 ---
