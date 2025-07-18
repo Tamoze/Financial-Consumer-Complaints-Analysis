@@ -8,7 +8,7 @@ This project is particularly relevant for stakeholders interested in customer se
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Project Scope](https://#project-scope)
+- [Project Scope](#project-scope)
 - [Business Objectives]  
 - [Document Purpose] 
 - [Use Case] 
