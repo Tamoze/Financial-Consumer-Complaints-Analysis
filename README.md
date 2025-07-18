@@ -9,14 +9,14 @@ This project is particularly relevant for stakeholders interested in customer se
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Project Scope](#project-scope)
-- [Business Objectives]  
-- [Document Purpose] 
-- [Use Case] 
-- [Data Source]  
-- [Dataset Overview] 
-- [Data Cleaning and Processing]  
-- [Data Analysis and Insights] 
-- [Recommendation]
+- [Business Objectives](#business-objectives)  
+- [Document Purpose](#document-purpose) 
+- [Use Case](#use-case) 
+- [Data Source](#data-source)  
+- [Dataset Overview](#dataset-overview) 
+- [Data Cleaning and Processing](#data-cleaning-and-processing)  
+- [Data Analysis and Insights](#data-analysis-and-insights) 
+- [Recommendation](#-general-recommendations)
 - [Conclusion](#conclusion)
 
 ---
