@@ -8,7 +8,7 @@ This project is particularly relevant for stakeholders interested in customer se
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Project Scope] 
+- [Project Scope](https://#project-scope)
 - [Business Objectives]  
 - [Document Purpose] 
 - [Use Case] 
@@ -21,12 +21,12 @@ This project is particularly relevant for stakeholders interested in customer se
 
 ---
 
-## Project Overview
+### Project Overview
 This Power BI dashboard project explores consumer complaints submitted to the Consumer Financial Protection Bureau (CFPB) regarding **Bank of America** between **2017 and 2023**. The analysis focuses on complaint trends across financial products and services, examining how issues are reported and resolved, and evaluating company response patterns.
 
 ---
 
-## Project Scope
+### Project Scope
 The scope of this project includes:
 - Analyzing complaint trends over a 7-year period (2017–2023).
 - Identifying product categories and issues with the highest complaint volumes.
@@ -52,7 +52,7 @@ This README serves as documentation for the Power BI dashboard and provides:
 
 ---
 
-##Use Case
+## Use Case
 This dashboard can support:
 - **Banking Operations Teams** – to pinpoint service issues and improve response workflows.
 - **Regulatory Affairs Departments** – to identify compliance risks and response delays.
@@ -123,14 +123,16 @@ This analysis provides insights into various dimensions of consumer complaints, 
 
 These insights aim to guide data-driven decision-making for improving customer experience and response effectiveness in the financial services sector.
 
-  ## 🔍 Seasonal Trends
+# 📊 Consumer Complaint Trends
+  **🔍 Seasonal Trends**
 ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Seasonal%20complaints.png)
 - Q3 recorded the highest number of complaints (16,952), closely followed by Q2 with 16,641.
 - Q1 had 14,662 complaints, while Q4 had the lowest with 14,261.
   
 This shows a clear spike in consumer complaints during mid-year (Q2 and Q3), likely driven by seasonal or operational factors.
 
-  ## 📅 Trends of Consumer Complaints by Month
+  **📅 Trends of Consumer Complaints by Month**
+  
 ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Complaints%20by%20month.png)
 
 This shows that:
@@ -143,7 +145,8 @@ Key monthly figures:
 
 This trend suggests increased customer friction or service interaction during warmer months or fiscal midpoints.
 
-  ## 📆 Trends of Consumer Complaints by Year (2017–2023)
+  **📆 Trends of Consumer Complaints by Year (2017–2023)**
+  
 ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Complaints%20by%20year.png)
 
 This shows that complaint volumes increased consistently from 2017 (2,879) to a peak in 2022 (8,746).
@@ -165,7 +168,7 @@ Year-over-year summary:
 - December and February see the fewest complaints, suggesting calmer service periods.
 - Over the years, complaint volumes rose sharply before tapering off in 2023, indicating progress in handling or preventing issues.
 
-  ## 📌 Insights on Issues by Product, Sub-Product, and Issue Type
+  # 📌 Insights on Issues by Product, Sub-Product, and Issue Type
 
 **🏦 Number of Issues Identified Per Product**
 
@@ -227,7 +230,7 @@ These results indicate that daily-use and high-volume products (e.g., checking a
 - Checking accounts and general-purpose credit cards are the most complaint-prone sub-products.
 - There’s a strong need for clearer communication, proactive dispute resolution, and process simplification for frequently used products.
 
-  ## 🌎 Geographic Insights: Top 10 States by Complaint Volume
+  # 🌎 Geographic Insights: Top 10 States by Complaint Volume
 
 **📍 State-Level Complaint Distribution**
 
@@ -250,7 +253,7 @@ Other top states include:
 - It may also reflect regional differences in service quality, financial regulation, or banking infrastructure.
 - California's dominance highlights the need for localized customer support strategies in high-volume states.
 
-  ## 🛠️ Resolution Types
+  # 🛠️ Resolution Types
 
 **🧾 Response Distribution Overview**
 
@@ -268,7 +271,7 @@ There are 5 different types of response approaches adopted from the chart:
 - Monetary and non-monetary relief combined (≈20,000 cases) highlights the importance of resolution integrity and fairness in customer service.
 - The very low number of pending or unresolved complaints (<2.5%) reflects well on response efficiency but should still be monitored to ensure timely closure.
 
-  ## ⏱️ Timeliness of Response
+  # ⏱️ Timeliness of Response
   
   **📊 Prompt Response Rate**
 
@@ -326,7 +329,7 @@ From the bar chart, the most delayed issues are:
 
 The top delayed issues mirror the “in progress” ones, with "Managing an account" again leading. Delay-prone complaints tend to involve third-party interactions, data disputes, or fraud investigations, which are more complex and time-consuming.
 
-  ## Complaint Channel Distribution
+  # Complaint Channel Distribution
 
 ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Complaint%20channel%20distribution.png)
 
