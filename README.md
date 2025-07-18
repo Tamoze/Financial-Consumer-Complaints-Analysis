@@ -1,32 +1,32 @@
-# Financial-Consumer-Complaints-Analysis
+### Financial-Consumer-Complaints-Analysis
 
-## Introduction
+### Introduction
 
 The Financial Consumer Complaints project explores over 62,000 consumer complaints submitted to the Consumer Financial Protection Bureau (CFPB) concerning Bank of America from 2017 to 2023. Using Power BI, the project delivers interactive and insightful visualizations that help uncover trends in complaint types, products, resolution methods, and company response times.
 
 This project is particularly relevant for stakeholders interested in customer service analytics, financial compliance, and operational performance in the banking sector.
 
-## Table of Contents
-- [Project Overview](#project-overview)  
-- [Project Scope](#project-scope)  
-- [Business Objectives](#business-objectives)  
-- [Document Purpose](#document-purpose)  
-- [Use Case](#use-case)  
-- [Data Source](#data-source)  
-- [Dataset Overview](#dataset-overview)  
-- [Data Cleaning and Processing](#data-cleaning-and-processing)  
-- [Data Analysis and Insights](#data-analysis-and-insights)  
-- [Recommendation](#recommendation)  
+### Table of Contents
+- [Project Overview]
+- [Project Scope] 
+- [Business Objectives]  
+- [Document Purpose] 
+- [Use Case] 
+- [Data Source]  
+- [Dataset Overview] 
+- [Data Cleaning and Processing]  
+- [Data Analysis and Insights] 
+- [Recommendation]
 - [Conclusion](#conclusion)
 
 ---
 
-## Project Overview
+### Project Overview
 This Power BI dashboard project explores consumer complaints submitted to the Consumer Financial Protection Bureau (CFPB) regarding **Bank of America** between **2017 and 2023**. The analysis focuses on complaint trends across financial products and services, examining how issues are reported and resolved, and evaluating company response patterns.
 
 ---
 
-## Project Scope
+### Project Scope
 The scope of this project includes:
 - Analyzing complaint trends over a 7-year period (2017–2023).
 - Identifying product categories and issues with the highest complaint volumes.
@@ -35,7 +35,7 @@ The scope of this project includes:
 
 ---
 
-## Business Objectives
+# Business Objectives
 - Discover which financial products and issues trigger the most consumer complaints.
 - Evaluate how effectively Bank of America addresses complaints.
 - Understand trends in response time, dispute frequency, and submission channels.
@@ -43,7 +43,7 @@ The scope of this project includes:
 
 ---
 
-## Document Purpose
+# Document Purpose
 This README serves as documentation for the Power BI dashboard and provides:
 - Context on the dataset used
 - Description of the analytical workflow
@@ -52,7 +52,7 @@ This README serves as documentation for the Power BI dashboard and provides:
 
 ---
 
-## Use Case
+###Use Case
 This dashboard can support:
 - **Banking Operations Teams** – to pinpoint service issues and improve response workflows.
 - **Regulatory Affairs Departments** – to identify compliance risks and response delays.
@@ -61,7 +61,7 @@ This dashboard can support:
 
 ---
 
-## Data Source
+### Data Source
 - **Provider**: [Maven Analytics](https://www.mavenanalytics.io/)
 - **Dataset**: Consumer complaints filed with the CFPB
 - **Entity Covered**: Bank of America
@@ -69,7 +69,7 @@ This dashboard can support:
 
 ---
 
-## Dataset Overview
+### Dataset Overview
 - **Total Records**: 62,516
 - **Number of Fields**: 12
 
@@ -87,7 +87,7 @@ Each record represents an individual complaint submitted by a consumer.
 
 ---
 
-## Data Cleaning and Processing
+### Data Cleaning and Processing
 Data preparation steps included:
 - Removing null values and duplicates
 - Standardizing date formats and calculating submission-response time
@@ -96,16 +96,41 @@ Data preparation steps included:
 
 ---
 
-## Data Analysis and Insights
+### Data Analysis and Insights
 
-### 🔍 Seasonal Trends
+The key metrics for this analysis include:
+- Total Complaints Submitted: 62,516
+- Total Submission Channels: 7
+- Number of Products: 9
+- Number of Sub-Products: 47
+- Number of Issues Identified: 76
+- Number of Sub-Issues Identified: 47
+- Number of States Reporting Complaints: 51
+- Number of Response Strategies/Approaches: 5
+
+This analysis provides insights into various dimensions of consumer complaints, including:
+- Total Complaints Received per Quarter
+- Seasonal Trends of Consumer Complaints
+- Monthly and Yearly Complaint Trends
+- Issues Identified per Product and Sub-Product
+- Top 10 Most Frequent Issues
+- States with the Highest Complaint Volumes
+- Prompt Response Rates and Response Approaches
+- Products with Responses in Progress
+- Top 10 Issues with Response in Progress
+- Top 10 Issues with Delayed Responses
+- Complaint Channel Distribution
+
+These insights aim to guide data-driven decision-making for improving customer experience and response effectiveness in the financial services sector.
+
+  ## 🔍 Seasonal Trends
 ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Seasonal%20complaints.png)
 - Q3 recorded the highest number of complaints (16,952), closely followed by Q2 with 16,641.
 - Q1 had 14,662 complaints, while Q4 had the lowest with 14,261.
   
 This shows a clear spike in consumer complaints during mid-year (Q2 and Q3), likely driven by seasonal or operational factors.
 
-### 📅 Trends of Consumer Complaints by Month
+  ## 📅 Trends of Consumer Complaints by Month
 ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Complaints%20by%20month.png)
 
 This shows that:
@@ -118,7 +143,7 @@ Key monthly figures:
 
 This trend suggests increased customer friction or service interaction during warmer months or fiscal midpoints.
 
-### 📆 Trends of Consumer Complaints by Year (2017–2023)
+  ## 📆 Trends of Consumer Complaints by Year (2017–2023)
 ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Complaints%20by%20year.png)
 
 This shows that complaint volumes increased consistently from 2017 (2,879) to a peak in 2022 (8,746).
@@ -140,7 +165,7 @@ Year-over-year summary:
 - December and February see the fewest complaints, suggesting calmer service periods.
 - Over the years, complaint volumes rose sharply before tapering off in 2023, indicating progress in handling or preventing issues.
 
-### 📌 Insights on Issues by Product, Sub-Product, and Issue Type
+  ## 📌 Insights on Issues by Product, Sub-Product, and Issue Type
 
 **🏦 Number of Issues Identified Per Product**
 
@@ -202,7 +227,7 @@ These results indicate that daily-use and high-volume products (e.g., checking a
 - Checking accounts and general-purpose credit cards are the most complaint-prone sub-products.
 - There’s a strong need for clearer communication, proactive dispute resolution, and process simplification for frequently used products.
 
-### 🌎 Geographic Insights: Top 10 States by Complaint Volume
+  ## 🌎 Geographic Insights: Top 10 States by Complaint Volume
 
 **📍 State-Level Complaint Distribution**
 
@@ -225,7 +250,7 @@ Other top states include:
 - It may also reflect regional differences in service quality, financial regulation, or banking infrastructure.
 - California's dominance highlights the need for localized customer support strategies in high-volume states.
 
-### 🛠️ Resolution Types
+  ## 🛠️ Resolution Types
 
 **🧾 Response Distribution Overview**
 
@@ -243,45 +268,161 @@ There are 5 different types of response approaches adopted from the chart:
 - Monetary and non-monetary relief combined (≈20,000 cases) highlights the importance of resolution integrity and fairness in customer service.
 - The very low number of pending or unresolved complaints (<2.5%) reflects well on response efficiency but should still be monitored to ensure timely closure.
 
-### ⏱️ Timeliness of Response
+  ## ⏱️ Timeliness of Response
+  
+  **📊 Prompt Response Rate**
+
+  ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Prompt%20Response%20Rate.png)
+
+  The chart shows that:
+ - 93.77% of complaints received a prompt response, which shows a strong level of responsiveness by the organization.
+- 3.84% were not responded to promptly, which may signal potential gaps in handling specific complaint types or workflow inefficiencies.
+- A very small portion (indicated in yellow) is missing data, suggesting some issues in data recording or reporting consistency.
+
+*💡 Insight:*
+- Overall, the organization demonstrates excellent responsiveness. However, attention should be given to the few cases not promptly addressed, especially to understand any systemic causes or patterns.
 - While most responses were timely, **untimely responses** were often linked to disputes or complex product categories.
 - Delay patterns often appeared in **credit-related** complaints.
 
+  ** 🔄 Top 10 Issues with Response in Progress**
+  
+  ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Product%20with%20Response%20in%20Progress.png)
+  
+The bar chart reveals that the issues still being worked on include:
+- Managing an account (380 cases) – again appearing prominently, reinforcing it as a high-friction area.
+- Opening an account (100 cases) and Problem with a credit reporting company's investigation (93 cases) also dominate.
+
+  Other areas of issues with response in progress are:
+- Closing an account	83
+- Incorrect information on your report	80
+- Other features, terms or problem	67
+- Problem with a purchase shown on your statement	63
+- Improper use of your report	62
+- Problem caused by your fund being low	52
+- Getting a credit card	50
+
+*💡 Insight:*
+- The majority of unresolved complaints revolve around account lifecycle issues — from opening, managing, to closing — and credit report accuracy. 
+- This indicates ongoing friction in core banking operations, compliance reporting, and transactional clarity.
+
+  **⏳ Top 10 Issues with Delayed Response**
+  
+![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Top%2010%20Issues%20with%20delayed%20response.png)
+  
+From the bar chart, the most delayed issues are:
+- Managing an account (497 cases) – the most affected, indicating a process or support bottleneck in account-related services.
+- Incorrect information on credit reports (322 cases) – this likely involves third-party verification delays.
+- Problems with a purchase shown on your statement (197 cases) and Attempting to collect debt not owed (118 cases) are also notable.
+
+   Other areas of issues with response in progress are:
+- Closing an account	116
+- Opening an account	107
+- Problem with a credit reporting company’s investigation	99
+- Problem with a lender or other company charging your account	99
+- Fraud or scam	80
+- Improper use of your report	80
+  
+*💡 Insight:*
+
+The top delayed issues mirror the “in progress” ones, with "Managing an account" again leading. Delay-prone complaints tend to involve third-party interactions, data disputes, or fraud investigations, which are more complex and time-consuming.
+
+  ## Complaint Channel Distribution
+
+![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Complaint%20channel%20distribution.png)
+
+The chart shows how customers are submitting complaints across different platforms.
+
+| Channel         | Percentage |
+|-----------------|------------|
+| Web             | 72.66%     |
+| Referral        | 17.22%     |
+| Phone           | 7.49%      |
+| Email           | 2.11%      |
+| Web Referral    | 0.14%      |
+| Others          | 0.38%      |
+
+*📌 Insight:*
+- Digital-first trend: The web dominates as the main complaint channel.
+- Referral usage indicates the value of external bodies like regulators or advocacy groups.
+- Phone and email still serve those preferring traditional channels.
+
 ---
 
-## Recommendation
- **Enhance Mid-Year Support Capacity (Q2–Q3)**
+### ✅ General Recommendations
+
+**1. Proactively Manage High-Risk Complaint Categories**
+- Prioritize resolution for frequently reported issues such as managing an account, incorrect credit report information, and fraud or scams.
+- Introduce dedicated resolution workflows and specialized response teams to reduce delays and repeat complaints.
+
+**2. Target Top States with High Complaint Volumes**
+- Focus attention on complaint-heavy states like California, Texas, Florida, and Georgia.
+- Allocate regional support resources, targeted consumer education, and policy adjustments to address regional drivers of dissatisfaction.
+
+**3. Enhance Mid-Year Support Capacity (Q2–Q3)**
+
+Since Q2 and Q3 (April to September) register the highest complaint volumes, institutions like Bank of America should:
+- Scale up customer service staffing during these months.
+- Launch proactive outreach to address common seasonal complaint types.
+- Ensure system reliability and uptime, especially for online and mobile banking platforms during this peak period.
+
+**4. Boost Response Timeliness and Efficiency**
+
+Although prompt response is generally strong, a significant portion of complaints remain "In Progress" or are resolved with delay.
+
+Recommendations:
+- Implement automated routing and triage systems to prioritize and speed up case handling.
+- Conduct regular audits of delayed responses to identify root causes and resolve procedural inefficiencies.
+
+**5. Monitor and Improve Product-Specific Complaint Channels**
+- Allocate more attention to products with high complaint volumes.
+- Encourage product and compliance teams to analyze recurring complaint trends.
+- Update call center scripts and agent training to reflect the latest pain points and resolutions.
+
+**6. Leverage Predictive Analytics**
+- Use historical complaint patterns to forecast complaint surges by:
+
+ Month, season, or product/service.
+- Deploy AI-driven early warning systems to detect and respond to emerging issues in real-time.
+
+**7. Strengthen Complaint Resolution Approaches**
+
+A large proportion of cases are closed with explanations, which may not fully satisfy customers.
+- Shift from reactive justification to proactive resolution strategies.
+- Consider post-resolution feedback loops to improve quality and consistency.
+
+**8. Improve Web-Based and Multichannel Experiences**
+
+Since 72.66% of complaints come through web, ensure:
+- User-friendly online forms, responsive mobile interfaces, and interactive complaint guides.
+- Explore live chat and AI-powered assistants for real-time issue triage.
+
+- Also enhance:
   
-Since Q2 and Q3 (April to September) see the highest complaint volumes, financial institutions like Bank of America should:
-- Scale up customer service teams during this period.
-- Implement proactive outreach to address predictable seasonal issues.
-- Ensure system reliability and uptime, especially for online and mobile banking.
+ Phone (7.49%) and email (2.11%) support capacity for customers less likely to use online tools.
+ 
+ Streamline referral (17.22%) and web referral (0.14%) submissions through better partner integration.
 
-  **Monitor and Improve Product-Specific Complaint Channels**
-- Focus resources on high-complaint products and issues, ensuring:
-- Product teams review recurring complaint types.
-- Training and scripts for agents are updated to reflect common customer pain points.
+**9. Improve Self-Service Resources**
+- Develop robust and updated FAQs, tutorials, and chatbot support for frequent issues.
+- Promote self-resolution tools during peak complaint months to relieve customer service teams.
 
-  **Boost Response Timeliness**
-- With timeliness being a critical issue:
-- Implement automated routing and triage systems to shorten response time.
-- Regularly audit cases with delayed responses to uncover bottlenecks or procedural gaps.
+**10. Customer Education Campaigns**
+- Launch campaigns around March and April to:
+- Educate users on fees, account features, and dispute resolution.
+- Minimize misunderstandings that typically spike during Q2–Q3.
 
-  **Leverage Predictive Analytics**
-- Use historical complaint trends to forecast complaint volumes by season, month, and product.
-- Deploy AI-driven early warning systems to flag sudden spikes or emerging issues.
+**11. Evaluate and Scale Operational Changes from 2023**
 
-  **Improve Self-Service Resources**
-- Develop and update FAQs, tutorials, and support chatbots to handle predictable seasonal complaints.
-- Encourage self-resolution during peak months to reduce contact center load.
+The noticeable drop in complaints in 2023 indicates that implemented changes were effective.
+- Conduct a retrospective review to assess which measures worked.
+- Scale or replicate these best practices across departments, regions, or product lines.
 
-  **Customer Education Campaigns**
-- Launch targeted communication campaigns in March and April to educate consumers about product features, fees, and dispute processes—reducing misunderstandings that lead to complaints.
-
-  **Evaluate Operational Changes Made in 2023**
-- The drop in complaints in 2023 suggests recent improvements were effective.
-- Conduct a retrospective analysis to identify which actions led to better outcomes.
-- Scale or replicate these across other business units or regions.
+**12. Establish a Continuous Improvement System**
+- Integrate complaint analytics into a continuous improvement framework by:
+  
+  Monitoring trends and satisfaction over time.
+  
+  Using insights for training, policy reform, and customer service redesign.
 
 ---
 
