@@ -426,7 +426,7 @@ The noticeable drop in complaints in 2023 indicates that implemented changes wer
 
 ---
 
-### Conclusion
+## Conclusion
 This Power BI dashboard offers a deep dive into consumer complaints targeting Bank of America’s financial products from 2017 to 2023. It reveals critical service gaps and highlights improvement opportunities in timeliness, dispute resolution, and product support. By leveraging these insights, stakeholders can make informed, customer-focused decisions.
 
 ---
