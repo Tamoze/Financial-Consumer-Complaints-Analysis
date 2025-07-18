@@ -214,6 +214,8 @@ This analysis provides insights into various dimensions of consumer complaints, 
 
 These insights aim to guide data-driven decision-making for improving customer experience and response effectiveness in the financial services sector.
 
+---
+
 ### 📊 Consumer Complaint Trends
   **🔍 Seasonal Trends**
 ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Seasonal%20complaints.png)
@@ -258,6 +260,8 @@ Year-over-year summary:
 - Complaints peak in Q3 and mid-year months, especially July and May, signaling a seasonal trend.
 - December and February see the fewest complaints, suggesting calmer service periods.
 - Over the years, complaint volumes rose sharply before tapering off in 2023, indicating progress in handling or preventing issues.
+
+---
 
   ### 📌 Insights on Issues by Product, Sub-Product, and Issue Type
 
@@ -321,6 +325,8 @@ These results indicate that daily-use and high-volume products (e.g., checking a
 - Checking accounts and general-purpose credit cards are the most complaint-prone sub-products.
 - There’s a strong need for clearer communication, proactive dispute resolution, and process simplification for frequently used products.
 
+---
+
   ### 🌎 Geographic Insights: Top 10 States by Complaint Volume
 
 **📍 State-Level Complaint Distribution**
@@ -344,6 +350,8 @@ Other top states include:
 - It may also reflect regional differences in service quality, financial regulation, or banking infrastructure.
 - California's dominance highlights the need for localized customer support strategies in high-volume states.
 
+---
+
   ### 🛠️ Resolution Types
 
 **🧾 Response Distribution Overview**
@@ -361,6 +369,8 @@ There are 5 different types of response approaches adopted from the chart:
 - The high number of “Closed with explanation” responses suggests that many complaints stem from misunderstandings or miscommunication — an opportunity for better consumer education and clearer policies.
 - Monetary and non-monetary relief combined (≈20,000 cases) highlights the importance of resolution integrity and fairness in customer service.
 - The very low number of pending or unresolved complaints (<2.5%) reflects well on response efficiency but should still be monitored to ensure timely closure.
+
+---
 
   ### ⏱️ Timeliness of Response
   
@@ -420,7 +430,9 @@ From the bar chart, the most delayed issues are:
 
 The top delayed issues mirror the “in progress” ones, with "Managing an account" again leading. Delay-prone complaints tend to involve third-party interactions, data disputes, or fraud investigations, which are more complex and time-consuming.
 
-  ### Complaint Channel Distribution
+---
+
+  ### 📡 Complaint Channel Distribution
 
 ![](https://github.com/Tamoze/Financial-Consumer-Complaints-Analysis/blob/main/Complaint%20channel%20distribution.png)
 
