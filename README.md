@@ -26,7 +26,7 @@ This Power BI dashboard project explores consumer complaints submitted to the Co
 
 ---
 
-### Project Scope
+## Project Scope
 The scope of this project includes:
 - Analyzing complaint trends over a 7-year period (2017–2023).
 - Identifying product categories and issues with the highest complaint volumes.
