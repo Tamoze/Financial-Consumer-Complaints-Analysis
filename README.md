@@ -7,7 +7,7 @@ The Financial Consumer Complaints project explores over 62,000 consumer complain
 This project is particularly relevant for stakeholders interested in customer service analytics, financial compliance, and operational performance in the banking sector.
 
 ## Table of Contents
-- [Project Overview]
+- [Project Overview](#project-overview)
 - [Project Scope] 
 - [Business Objectives]  
 - [Document Purpose] 
